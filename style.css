@@ -1,0 +1,59 @@
+/*element {
+	property: value;
+}*/	
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+#landing {
+	margin-top: 12.5vh;
+	height: 87.5vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: transparent;
+}
+
+img {
+	height: 250px;
+	width: 250px;
+	border-radius: 150px;
+}
+
+#gallery {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 5vh 0;
+	border-radius: 6px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+
+}
+
+.tools {
+	border: 5px solid white;
+	width: 75%;
+	margin: 20px;
+	padding: 20px;
+	color: white;
+
+}
+
+h2 {
+	color: #4285F4 ; 
+}
+
+html {
+	scroll-behavior: smooth;
+}
